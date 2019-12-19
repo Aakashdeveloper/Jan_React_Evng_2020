@@ -1,0 +1,71 @@
+npm
+==> Node Package Manger
+> packages
+> node_modules
+> npm_modules
+
+> Local=> local to the folder
+> Global => local to the system
+    --Creating,building,running,testing
+
+> package.json
+
+//////////////////////////////
+Step For Creating Package.json
+//////////////////////////////
+**NodeJs must be installed
+> Navigate to folder using cmd/terminal
+> npm init 
+> Answer all question
+> type 'yes'
+
+//////////////////////////////
+Step to install Local packages
+//////////////////////////////
+> Navigate to folder using cmd/terminal
+> npm install <packagename>/npm i <packagename>
+
+We never transport node_modules folder
+* Without node_modules application will not run 
+* We you get application from any one
+* Go inside the folder using cmd and type "npm install"
+* It will install  all dependinces which are in packag.json
+
+//////////////////////////////
+Step to install Gloabl packages
+//////////////////////////////
+>>Windows
+> Open Cmd as admin
+** No needto navigate in any folder
+** YYou can run from any folder
+> npm install -g <packagename>/npm i -g <packagename>
+> npm i -g @aakashdeveloper/create-node-app
+
+>>Mac/Linux
+>Open Terminal
+>sudo npm install -g <packagename>/npm i -g <packagename>
+>> sudo npm i -g @aakashdeveloper/create-node-app
+
+Mac >>> /usr/local/lib/node_modules
+Window>> C:\Users\[Username]\AppData\Roaming\npm
+
+//////////////////////////////
+Step to SetUp ReactAPP
+//////////////////////////////
+>>Windows
+> Open Cmd as admin
+> npm install -g create-react-app (OneTime)
+> Navigate to folder using cmd/terminal
+> create-react-app firstapp
+> cd firstapp
+> npm start
+> http://localhost:3000/
+
+>>Mac/Linux
+> Open Terminal
+> sudo npm install -g create-react-app (OneTime)
+> Navigate to folder using cmd/terminal
+> create-react-app firstapp
+> cd firstapp
+> npm start
+> http://localhost:3000/
