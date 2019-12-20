@@ -69,3 +69,31 @@ Step to SetUp ReactAPP
 > cd firstapp
 > npm start
 > http://localhost:3000/
+
+react
+react+redux
+react+graphql
+reeact forms
+backend connection
+testing
+deployment
+docker
+nginx
+
+/////////
+const
+function
+map
+filter
+array
+
+////
+creating first app with react
+
+** Only main component will render
+rest all component will be exported
+
+//////////////////////////////
+Type Of Component in React
+//////////////////////////////
+Functional    |  ClassBase  
