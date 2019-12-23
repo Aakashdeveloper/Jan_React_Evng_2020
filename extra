@@ -96,4 +96,34 @@ rest all component will be exported
 //////////////////////////////
 Type Of Component in React
 //////////////////////////////
-Functional    |  ClassBase  
+Functional            |  ClassBase  
+light in weight       |  Its heavy as compare to Functional
+Dumb Component        |  logical component
+Stateless             |  statefull
+
+
+State=> It act like a local variable
+
+Component A     ===>        Component B 
+State1(title)    props       State2
+
+
+
+function details(a){
+    return a.name
+}
+
+
+var name="john"
+details(name)
+
+
+var john={
+    name:"John",
+    city:"London"
+}
+
+
+details.bind(john)
+** if you want to pass parameter as object
+in function we have to use bind keyword

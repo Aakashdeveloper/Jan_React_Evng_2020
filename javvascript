@@ -40,3 +40,7 @@ class add {
 (function(){}())
 
 JSX
+
+apply
+call
+bind
