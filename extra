@@ -127,3 +127,36 @@ var john={
 details.bind(john)
 ** if you want to pass parameter as object
 in function we have to use bind keyword
+
+map
+filter
+
+
+var a = [0,1,2,3,4]
+a.map((data)=>{return data*2})
+a.filter((data)=>{return data*2})
+[0, 2, 4, 6, 8]
+
+
+var age = [18,34,42,28,26]
+age.filter((data)=>{return data>18})
+age.map((data)=>{return data>18})
+
+var age = [18,34,42,28,26]
+age.filter((data)=>{return data>18})
+(4) [34, 42, 28, 26]
+age.map((data)=>{return data>18})
+(5) [false, true, true, true, true]
+var a = [0,1,2,3,4]
+undefined
+a.filter((data)=>{return data*2})
+(4) [1, 2, 3, 4]
+a.filter((data)=>{data*2})
+
+
+
+var a = 10
+var b = "my age is "+a
+my age is 10
+
+var b = `my age is ${a}`

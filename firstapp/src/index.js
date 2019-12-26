@@ -1,13 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './component/Header';
+import Home from './component/Home'
 
-const App = () => {
-    return(
-        <div>
-            <Header/>
-        </div>
-    )
-}
-
-ReactDOM.render(<App/>,document.getElementById('root'))
+ReactDOM.render(<Home/>,document.getElementById('root'));
