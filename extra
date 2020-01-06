@@ -162,3 +162,12 @@ my age is 10
 var b = `my age is ${a}`
 
 npm i react-router-dom
+
+
+////////
+Set To Create Dummy API
+///////
+npm i -g json-server
+
+json-server --watch db.json --port 8900
+
