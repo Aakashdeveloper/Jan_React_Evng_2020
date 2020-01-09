@@ -171,3 +171,5 @@ npm i -g json-server
 
 json-server --watch db.json --port 8900
 
+
+npm i redux react-redux react-slick react-promise react-router-dom

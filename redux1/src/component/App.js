@@ -1,30 +1,23 @@
-import React, {Component} from 'react';
-import {connect} from 'react-redux';
-import * as actions from '../actions'
+import React from 'react';
 
-class App extends Component{
+const ListView = (props) => {
 
-    componentDidMount(){
-        this.props.MoviesList()
+    const renderMovies = ({moviesdata}) => {
+        if(moviesdata){
+            return moviesdata.map((data) => {
+                return(
+                <div key={data.id}>
+                    {data.name}
+                </div>
+                )
+            })
+        }
     }
-
-    render(){
-        return(
-            <div>
-                <h1> Redux App</h1>
-            </div>
-        )
-    }
-    
+    return(
+        <div>
+            {renderMovies(props)}
+        </div>
+    )
 }
 
-
-function mapStateToProps(state){
-    console.log(state)
-    return{
-        data:state.movies
-    }
-}
-
-
-export default connect(mapStateToProps,actions)(App)
+export default ListView;
