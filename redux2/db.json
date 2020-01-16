@@ -97,6 +97,20 @@
         65,
         12
       ]
+    },
+    {
+      "id": 796,
+      "title": "Weather News",
+      "body": "Today it will be rain",
+      "category": "Weather",
+      "img": "2.jpg",
+      "date": "21/21/1944",
+      "author": "Mary Bottom",
+      "views": 456,
+      "likes": [
+        67,
+        13
+      ]
     }
   ],
   "galleries": [

@@ -6,6 +6,7 @@ const Header = () => {
         <header>
             <div>
                 <Link to="/">Redux News App</Link>
+                <Link to="/forms">ADD News</Link>
             </div>
         </header>
     )
