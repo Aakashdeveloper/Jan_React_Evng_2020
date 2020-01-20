@@ -78,7 +78,7 @@ export function PostData(title,body,category){
     .then((response) =>  response.json())
 
     return{
-        typee:'POST_FORM',
+        type:'POST_FORM',
         payload:''
     }
 }
