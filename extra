@@ -210,3 +210,7 @@ SSL
          index  index.html index.htm;
         }
     }
+
+========
+npm i enzyme-adapter-react-16 react-test-renderer enzyme
+npm i enzyme
